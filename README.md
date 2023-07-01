@@ -1,10 +1,9 @@
 6/30/2023 update:
-Forked in order to continue using via HACS in HA with RF blinds and curtains.
-
+Forked in order to continue using via HACS in HA with RF blinds and curtains triggered by a Broadlink RM4 Pro.  
 
 # Cover Time Based script/entity
 
-Cover Time Based Component for your [Home-Assistant](http://www.home-assistant.io) based on [davidramosweb's Cover Time Based Component](https://github.com/davidramosweb/home-assistant-custom-components-cover-time-based), modified for native cover entities, covers triggered by RF commands, or any other unidirectional methods.
+Cover Time Based Component for your [Home-Assistant](http://www.home-assistant.io) based on [davidramosweb's Cover Time Based Component](https://github.com/davidramosweb/home-assistant-custom-components-cover-time-based), forked from [nagyrobi's RF time based component](https://github.com/nagyrobi/home-assistant-custom-components-cover-rf-time-based), modified for native cover entities, covers triggered by RF commands, or any other unidirectional methods.
 
 **Note**: _Since ESPHome v1.15.0 (September 13, 2020) it is possible to implement a Time Based Cover entirely in the Sonoff RF Bridge hardware, which excludes the necessity of this component (at least of the RF part). Jump to the bottom of this readme for an example how to set it up._
 
